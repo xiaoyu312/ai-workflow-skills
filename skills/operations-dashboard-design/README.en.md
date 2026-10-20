@@ -2,6 +2,8 @@
 
 [中文](README.md)
 
+More from the author: [FateClear](https://fateclear.com) · [Project updates on X](https://x.com/liu_xiaoyu27334)
+
 A reusable design workflow and CSS token set for Chinese-language operations dashboards, with semantic colors, typography, layout, data-state and accessibility conventions. No private business inputs or media are included.
 
 Status: **Experimental public source edition**.
@@ -32,3 +34,5 @@ These checks cover file structure, references and declared example constraints. 
 ## License
 
 MIT covers the user's authored instructions and code. See [LICENSE](LICENSE), [LICENSE-STATUS.md](LICENSE-STATUS.md) and [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md). Retained third-party notices remain applicable.
+
+Try [FateClear](https://fateclear.com) for free birthday charting and interpretation, or follow [me on X](https://x.com/liu_xiaoyu27334) for new projects and updates.

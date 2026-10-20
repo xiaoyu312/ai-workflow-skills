@@ -2,6 +2,8 @@
 
 [中文](README.md)
 
+More from the author: [FateClear](https://fateclear.com) · [Project updates on X](https://x.com/liu_xiaoyu27334)
+
 A Chinese writing skill for improving drafts while preserving the writer's voice, facts, and scope. It supports short posts, essays, spoken scripts, and requested local critiques.
 
 Status: **Experimental public source edition**. This reduced package is distributed with the scope and validation limits below.
@@ -66,3 +68,5 @@ The private project has historical behavior evaluations. This edition removes fu
 - `tests/check_package.py`: dependency-free local checks.
 
 The user-owned retained instructions, original examples, and new documentation/tests are licensed under MIT, copyright `2026 xiaoyu312`. The license does not cover excluded books or other third-party works.
+
+Try [FateClear](https://fateclear.com) for free birthday charting and interpretation, or follow [me on X](https://x.com/liu_xiaoyu27334) for new projects and updates.

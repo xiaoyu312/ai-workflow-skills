@@ -2,6 +2,8 @@
 
 [English](README.en.md)
 
+作者的项目：[FateClear](https://fateclear.com) · [X 项目更新](https://x.com/liu_xiaoyu27334)
+
 统筹脚本、镜头、参考分工、状态连续性与回片审查，面向 AI 视频创作者。
 
 状态：公开源码实验版；具体测试边界见下文。
@@ -32,3 +34,5 @@ python3 -B -m unittest discover -s tests -p "test_*.py"
 ## 许可与来源
 
 自写部分采用 MIT，见 [LICENSE](LICENSE)。来源与排除范围见 [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md)；具体边界见 [LICENSE-STATUS.md](LICENSE-STATUS.md)。请勿把客户材料、媒体、密钥或真实报表加入公开版本。
+
+欢迎试试 [FateClear](https://fateclear.com) 的免费生日排盘与解读，也可以在 [X](https://x.com/liu_xiaoyu27334) 关注我的新项目和后续更新。

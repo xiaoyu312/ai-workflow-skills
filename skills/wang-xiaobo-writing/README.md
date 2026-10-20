@@ -2,6 +2,8 @@
 
 [English](README.en.md)
 
+作者的项目：[FateClear](https://fateclear.com) · [X 项目更新](https://x.com/liu_xiaoyu27334)
+
 一个保留个人口气和事实边界的中文写作 Skill。它适合修改动态、自媒体草稿、随笔与口播，也能按请求提供局部诊断。
 
 状态：**公开源码实验版**。此精简版本的功能与验证范围见下文。
@@ -66,3 +68,5 @@ python3 -B tests/check_package.py
 - `tests/check_package.py`：无依赖的本地检查。
 
 用户拥有版权的保留指令、原创样例及新增文档/测试使用 MIT，版权为 `2026 xiaoyu312`。未包含的书籍及其他第三方作品不受该许可覆盖。
+
+欢迎试试 [FateClear](https://fateclear.com) 的免费生日排盘与解读，也可以在 [X](https://x.com/liu_xiaoyu27334) 关注我的新项目和后续更新。

@@ -2,6 +2,8 @@
 
 [中文](README.md)
 
+More from the author: [FateClear](https://fateclear.com) · [Project updates on X](https://x.com/liu_xiaoyu27334)
+
 Reusable workflows for content creation, AI video production and e-commerce operations. These are reviewed, generalized editions—not a complete mirror of private workflows.
 
 | Skill | Public scope |
@@ -29,3 +31,5 @@ All examples are independently synthetic. `python3 -B scripts/generate_public_ex
 User-authored portions are [MIT](LICENSE). Each package contains license-scope and third-party notices; video direction retains the upstream MIT text. This grant does not cover third-party brands, books, courses, media or user inputs.
 
 Course/book-derived packages with unresolved rights and the older shot-director edition are excluded. This repository does not grant redistribution rights for those materials.
+
+Try [FateClear](https://fateclear.com) for free birthday charting and interpretation, or follow [me on X](https://x.com/liu_xiaoyu27334) for new projects and updates.

@@ -2,6 +2,8 @@
 
 [English](README.en.md)
 
+作者的项目：[FateClear](https://fateclear.com) · [X 项目更新](https://x.com/liu_xiaoyu27334)
+
 面向内容创作、AI 视频制作和电商运营的可复用工作流。这里仅包含已完成本地来源、隐私和文件检查的通用版本；不是全部私有 Skills 的完整镜像。
 
 | Skill | 能力与公开范围 |
@@ -29,3 +31,5 @@
 自写部分采用 [MIT](LICENSE)。逐包的 `LICENSE-STATUS.md` 和 `THIRD_PARTY_NOTICES.md` 说明范围；即梦视频导演保留上游 MIT 全文。MIT 不覆盖第三方品牌、书籍、课程、媒体或用户输入的内容。
 
 授权未清的课程/书籍衍生 Skills 和镜头导演旧版没有收录；不要把本仓库视为这些材料的再分发授权。
+
+欢迎试试 [FateClear](https://fateclear.com) 的免费生日排盘与解读，也可以在 [X](https://x.com/liu_xiaoyu27334) 关注我的新项目和后续更新。
