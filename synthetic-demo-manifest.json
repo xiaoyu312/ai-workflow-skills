@@ -2,9 +2,9 @@
   "schema_version": 1,
   "classification": "synthetic_demo",
   "source_kind": "deterministic_generator",
-  "generated_by": "scripts/generate_public_examples.py",
-  "generator": "scripts/generate_public_examples.py",
-  "seed": "ai-workflow-skills-public-examples-v1",
+  "generated_by": "scripts/generate_all_examples.py",
+  "generator": "scripts/generate_all_examples.py",
+  "seed": "ai-workflow-skills-public-examples-v2",
   "contains_real_business_data": false,
   "contains_credentials": false,
   "contains_personal_data": false,
@@ -12,5 +12,5 @@
     "service": "GitHub",
     "access_scope": "public"
   },
-  "scope_note": "Application/workflow source plus independently authored synthetic examples; no live source snapshots."
+  "scope_note": "Eleven workflow packages and independently authored synthetic examples; no original business records, source books, course transcripts or case-study media."
 }

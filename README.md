@@ -4,7 +4,7 @@
 
 作者的项目：[FateClear](https://fateclear.com) · [X 项目更新](https://x.com/liu_xiaoyu27334)
 
-面向内容创作、AI 视频制作和电商运营的可复用工作流。这里仅包含已完成本地来源、隐私和文件检查的通用版本；不是全部私有 Skills 的完整镜像。
+11 个面向内容创作、AI 视频、电商运营、产品交付和决策支持的可复用工作流。每个目录均包含可调用的 SKILL.md、必要模板及使用说明。公开版按逐项来源和隐私边界整理；具体能力与原私有版本的差异见各包 README。
 
 | Skill | 能力与公开范围 |
 | --- | --- |
@@ -13,6 +13,12 @@
 | [天猫万相台周复盘](skills/tmall-wanxiang-weekly-review/README.md) | 口径、复算、证据分层与行动方案；不含连接器、业务数据或私有报告生成器 |
 | [参考视频结构迁移](skills/benchmark-script-adapter/README.md) | 通用拆解流程和空白输出模板；不含品牌事实库、成片语料或素材 |
 | [经营看板设计系统](skills/operations-dashboard-design/README.md) | CSS tokens、设计约束和独立合成预览；不含原品牌看板或数据 |
+| [镜头设计与回片检查](skills/jimeng-shot-director/README.md) | 参考职责、镜头动作与相机关系、连续性、镜头卡与回片诊断；不附案例媒体或提示词语料 |
+| [千川短视频脚本](skills/qianchuan-script-creator/README.md) | 商品事实核对、脚本分流、分镜和单变量迭代；不依赖课程知识库 |
+| [品牌文案工作台](skills/brand-copywriting/README.md) | 需求简报、证据与卖点、原创交付模板和校对；不附课程摘录 |
+| [AI 产品现场交付](skills/ai-product-field-delivery/README.md) | 任务界定、评测设计、发布计划与运行复盘；使用独立表单，不附书稿框架摘要 |
+| [职场沟通与行动](skills/gandepiaoliang-career-coach/README.md) | 目标、角色、决策权、沟通方案与阶段成果；不附书籍章节和攻略映射 |
+| [个人决策与复盘](skills/laoyu-life-coach/README.md) | 选项、风险、小步试验与复盘；不附课程地图、转写或语料 |
 
 ## 使用
 
@@ -24,12 +30,14 @@
 
 本地结构、引用和合成用例已检查。视频导演 13 项、周复盘/结构迁移/设计系统各 4 项测试通过；写作包检查了精确文件清单、14 个引用和 2 个合成样例。未验证模型行为质量、真实平台、真实业务效果或浏览器视觉效果。静态检查不保证所有模型均能正确执行流程。
 
-所有示例都是独立合成数据。可用 `python3 -B scripts/generate_public_examples.py` 重现公开示例；不会读取业务文件或联网。
+新增六包还接受独立合成任务检查；具体检查范围和未验证事项见各包 README。未承诺完整保留私有版本的方法体系或效果。
+
+所有示例都是独立合成数据。可用 `python3 -B scripts/generate_all_examples.py` 重现公开示例；不会读取业务文件或联网。
 
 ## 许可
 
 自写部分采用 [MIT](LICENSE)。逐包的 `LICENSE-STATUS.md` 和 `THIRD_PARTY_NOTICES.md` 说明范围；即梦视频导演保留上游 MIT 全文。MIT 不覆盖第三方品牌、书籍、课程、媒体或用户输入的内容。
 
-授权未清的课程/书籍衍生 Skills 和镜头导演旧版没有收录；不要把本仓库视为这些材料的再分发授权。
+新增六包保留可确认自写的流程，或补充独立编写的通用模板。历史来源按各包说明署名；受限原材料未收录，署名与本仓库 MIT 均不授予这些材料的再分发权。旧目录名仅用于兼容，不代表原作者或平台的官方版本。
 
 欢迎试试 [FateClear](https://fateclear.com) 的免费生日排盘与解读，也可以在 [X](https://x.com/liu_xiaoyu27334) 关注我的新项目和后续更新。

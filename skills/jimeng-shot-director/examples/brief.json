@@ -1,0 +1,22 @@
+{
+  "classification": "synthetic_demo",
+  "label": "模拟数据 DEMO",
+  "origin": "Independently authored for this public workflow; not derived from a client project or media.",
+  "request": "为无品牌纸盒设计一个四秒开盖镜头，只交文字。",
+  "known_facts": {
+    "object": "plain unbranded cardboard box",
+    "start": "lid closed",
+    "end": "lid open",
+    "target_duration_seconds": 4,
+    "requested_shots": 1
+  },
+  "assets": [],
+  "adjacent_shots": null,
+  "generation_authorized": false,
+  "unknowns": [
+    "exact hinge construction",
+    "camera side",
+    "current platform capabilities"
+  ],
+  "scope": "planning text only; no generated media supplied"
+}
