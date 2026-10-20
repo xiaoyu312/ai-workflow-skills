@@ -1,0 +1,4 @@
+interface:
+  display_name: "中文写作轻改"
+  short_description: "保留自己的口气与事实边界，轻改中文草稿；减少套话、刻意笑点和无依据的补充"
+  default_prompt: "用 $wang-xiaobo-writing 轻改下面的自媒体草稿，保留事实和我的口气，简短自然，不硬加笑点，只给正文。"

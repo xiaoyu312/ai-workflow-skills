@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+.DS_Store
+.env
+.env.*
+!.env.example
+private/
+local-inputs/
+outputs/
+*.sqlite*
+*.db
+*.log
+*.mp4
+*.mov
+*.mp3
+*.wav

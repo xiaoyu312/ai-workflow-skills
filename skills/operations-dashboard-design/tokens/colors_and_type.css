@@ -1,0 +1,128 @@
+/*
+ * Operations Dashboard Design
+ *
+ * Canonical tokens extracted from the current local preview. Values below are
+ * aliases of the current source CSS vocabulary or repeated literal values
+ * already present in the preview; no business data is embedded here.
+ */
+
+:root {
+  /* Reviewed color vocabulary for this public template. */
+  --forest: #173d2d;
+  --green: #214d3b;
+  --leaf: #3d7958;
+  --canvas: #f5f6f2;
+  --surface: #fff;
+  --ink: #202c25;
+  --muted: #637169;
+  --line: #dfe5de;
+  --soft: #f5f7f2;
+  --bad: #ac3f36;
+  --warn: #906322;
+  --good: #2c7050;
+  --font-ui: "Avenir Next","PingFang SC","Microsoft YaHei",sans-serif;
+
+  /* Original preview baseline, retained only for migration traceability. */
+  --original-canvas: #f4f6f4;
+  --original-line: #e2e8e3;
+  --original-soft: #f4f7f4;
+  --original-font-ui: -apple-system,BlinkMacSystemFont,"PingFang SC","Microsoft YaHei",sans-serif;
+
+  /* Repeated supporting values observed in the preview components. */
+  --sidebar-ink: #e7efea;
+  --sidebar-muted: #b2c8b9;
+  --focus-ring: #669e7b;
+  --border-divider: #edf0ed;
+  --surface-hover: #f7f9f6;
+  --selection-bg: #edf4ee;
+  --warning-bg: #faf1df;
+  --warning-fg: #825617;
+  --danger-bg: #f8eae7;
+  --danger-fg: #a3362d;
+  --success-bg: #edf5ee;
+  --success-fg: #326244;
+
+  /* Source layout primitives. */
+  --sidebar-width: 202px;
+  --radius-panel: 12px;
+  --radius-control: 7px;
+  --radius-small: 5px;
+  --sidebar: var(--sidebar-width);
+  --radius: var(--radius-panel);
+
+  /* Current font stack and observed type steps. */
+  --font-sans: var(--font-ui);
+  --size-2xs: 10px;
+  --size-xs: 11px;
+  --size-sm: 12px;
+  --size-body: 14px;
+  --size-md: 14px;
+  --size-lg: 16px;
+  --size-section-heading: 18px;
+  --size-section-heading-mobile: 17px;
+  --size-xl: 21px;
+  --size-2xl: 29px;
+  --size-3xl: 47px;
+  --original-size-body: 13px;
+  --weight-regular: 400;
+  --weight-medium: 500;
+  --weight-semibold: 600;
+  --weight-display: 650;
+  --leading-body: 1.55;
+  --leading-tight: 1.3;
+  --leading-heading: 1.45;
+  --leading-caption: 1.7;
+
+  /* Repeated spacing values in the source layout. */
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 20px;
+  --space-6: 24px;
+  --space-8: 32px;
+  --motion-fast: 0.16s;
+  --motion-card: 0.15s;
+}
+
+:root {
+  /* Foreground roles. */
+  --fg-1: var(--ink);
+  --fg-2: var(--muted);
+  --fg-inverse: var(--sidebar-ink);
+  --fg-accent: var(--green);
+  --fg-link: var(--leaf);
+
+  /* Background and surface roles. */
+  --bg-1: var(--canvas);
+  --bg-2: var(--surface);
+  --bg-soft: var(--soft);
+  --bg-hover: var(--surface-hover);
+  --surface-primary: var(--surface);
+  --surface-muted: var(--soft);
+  --surface-selected: var(--selection-bg);
+
+  /* Border and semantic roles. */
+  --border-subtle: var(--line);
+  --border-inner: var(--border-divider);
+  --accent-1: var(--green);
+  --accent-2: var(--leaf);
+  --state-positive: var(--good);
+  --state-warning: var(--warn);
+  --state-negative: var(--bad);
+  --state-positive-bg: var(--success-bg);
+  --state-warning-bg: var(--warning-bg);
+  --state-negative-bg: var(--danger-bg);
+
+  /* Type roles. Semantic variables point to the raw source steps above. */
+  --h1: var(--size-2xl);
+  --h2: var(--size-lg);
+  --section-heading: var(--size-section-heading);
+  --section-heading-mobile: var(--size-section-heading-mobile);
+  --h3: var(--size-md);
+  --body: var(--size-body);
+  --label: var(--size-sm);
+  --caption: var(--size-sm);
+  --metric: var(--size-xl);
+  --metric-hero: var(--size-3xl);
+}

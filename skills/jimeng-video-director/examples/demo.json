@@ -1,0 +1,62 @@
+{
+  "classification": "synthetic_demo",
+  "label": "模拟数据 DEMO",
+  "seed": "jimeng-video-director-demo-v1",
+  "duration_s": 4,
+  "ratio": "16:9",
+  "locked_state_keys": [
+    "object_id"
+  ],
+  "assets": [
+    {
+      "id": "BOX",
+      "path": "planned/box-reference.png",
+      "status": "planned",
+      "role": "object",
+      "preserve": [
+        "geometry"
+      ],
+      "exclude": [
+        "background"
+      ]
+    }
+  ],
+  "shots": [
+    {
+      "id": "S1",
+      "start_s": 0,
+      "end_s": 2,
+      "asset_ids": [
+        "BOX"
+      ],
+      "start_state": {
+        "object_id": "DEMO-BOX",
+        "lid": "closed"
+      },
+      "end_state": {
+        "object_id": "DEMO-BOX",
+        "lid": "closed"
+      }
+    },
+    {
+      "id": "S2",
+      "start_s": 2,
+      "end_s": 4,
+      "asset_ids": [
+        "BOX"
+      ],
+      "incoming": {
+        "type": "cut",
+        "reason": "synthetic view change"
+      },
+      "start_state": {
+        "object_id": "DEMO-BOX",
+        "lid": "closed"
+      },
+      "end_state": {
+        "object_id": "DEMO-BOX",
+        "lid": "closed"
+      }
+    }
+  ]
+}

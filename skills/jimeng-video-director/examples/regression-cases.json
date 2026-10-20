@@ -1,0 +1,12 @@
+[
+  {
+    "id": "synthetic-pending",
+    "input": "计划结构通过，盒子参考图仍为 planned。是否已完成视频验收？",
+    "expected": "仅结构有效；素材待制作；视频质量未验证。"
+  },
+  {
+    "id": "synthetic-state-conflict",
+    "input": "上一镜盒盖关闭，下一连续镜头突然开启，未注明操作或省略。",
+    "expected": "指出声明状态不连续，补动作或明确剪辑省略。"
+  }
+]

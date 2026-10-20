@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "classification": "synthetic_demo",
+  "source_kind": "deterministic_generator",
+  "generated_by": "scripts/generate_demo.py",
+  "generator": "scripts/generate_demo.py",
+  "seed": "tmall-wanxiang-weekly-review-demo-v1",
+  "contains_real_business_data": false,
+  "contains_credentials": false,
+  "contains_personal_data": false,
+  "destination": {
+    "service": "local staging review only; no upload",
+    "access_scope": "local-only"
+  }
+}

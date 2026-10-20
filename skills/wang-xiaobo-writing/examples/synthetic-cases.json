@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "synthetic": true,
+  "provenance": "New deterministic fictional examples created for public-source preparation; no real source records used.",
+  "cases": [
+    {
+      "id": "preserve-small-sample",
+      "request": "轻改，简短自然，保留所有事实和试用范围，只给正文。",
+      "input": "我今天试了一个提醒工具。只试了 3 次，其中 1 次提醒晚了 2 分钟。先继续试试。",
+      "illustrative_output": "今天试了个提醒工具，试了 3 次，其中 1 次晚了 2 分钟。先继续试试。",
+      "must_preserve": ["今天", "3 次", "1 次", "2 分钟", "继续试试"],
+      "must_not_claim": ["稳定可靠", "每次都准时", "已节省大量时间"]
+    },
+    {
+      "id": "formal-notice",
+      "request": "只改成清楚的正式通知，不添加解释或保证。",
+      "input": "合成演示系统计划在 21:10—21:20 维护，这段时间不能登录。没有提供已保存数据的影响信息。",
+      "illustrative_output": "合成演示系统将于 21:10—21:20 维护，期间暂时无法登录。已保存数据是否受影响，尚未提供信息。",
+      "must_preserve": ["21:10", "21:20", "无法登录", "未提供信息"],
+      "must_not_claim": ["数据绝对安全", "数据不受影响", "系统也要睡觉"]
+    }
+  ]
+}

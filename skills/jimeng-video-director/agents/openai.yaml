@@ -1,0 +1,4 @@
+interface:
+  display_name: "即梦视频导演"
+  short_description: "统筹脚本、分镜、素材锁定、视频提示词与回片审查，保持产品、人物和空间连续"
+  default_prompt: "使用 $jimeng-video-director，依据我的素材和交付要求，完成脚本、分镜、即梦提示词或回片诊断，并核对产品、人物与场景关系。"

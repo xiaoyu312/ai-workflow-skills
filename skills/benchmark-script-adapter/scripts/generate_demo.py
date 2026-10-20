@@ -1,0 +1,13 @@
+from pathlib import Path
+import json
+
+ROOT = Path(__file__).resolve().parents[1]
+PAYLOAD = {'classification': 'synthetic_demo', 'label': '模拟数据 DEMO', 'seed': 'benchmark-script-adapter-demo-v1', 'product': {'name': 'DEMO折叠收纳盒', 'verified_facts': ['可折叠', '有盖'], 'unknown_facts': ['价格', '承重', '促销']}, 'reference_structure': [{'time': '0-3', 'function': '展示桌面收纳问题'}, {'time': '3-8', 'function': '展示放入与合盖动作'}, {'time': '8-10', 'function': '询问用户是否需要查看尺寸'}], 'final_status': '补信息后可拍', 'rights': 'All text is synthetic; no external video is included.'}
+
+def main():
+    destination = ROOT / "examples" / 'demo.json'
+    destination.parent.mkdir(parents=True, exist_ok=True)
+    destination.write_text(json.dumps(PAYLOAD, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+
+if __name__ == "__main__":
+    main()

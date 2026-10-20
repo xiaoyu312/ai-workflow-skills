@@ -1,0 +1,17 @@
+{
+  "classification": "synthetic_demo",
+  "label": "模拟数据 DEMO",
+  "seed": "operations-dashboard-design-demo-v1",
+  "rows": [
+    {
+      "channel": "DEMO Alpha",
+      "amount": 1200,
+      "status": "模拟已对账"
+    },
+    {
+      "channel": "DEMO Beta",
+      "amount": null,
+      "status": "模拟待核"
+    }
+  ]
+}
