@@ -1,14 +1,29 @@
-# AI Workflow Skills
+[简体中文](README.md) · [English](README.en.md) · [日本語](README.ja.md)
 
-[English](README.en.md)
+# AI Workflow Skills
 
 作者的项目：[FateClear](https://fateclear.com) · [X 项目更新](https://x.com/liu_xiaoyu27334)
 
-11 个面向内容创作、AI 视频、电商运营、产品交付和决策支持的可复用工作流。每个目录均包含可调用的 SKILL.md、必要模板及使用说明。公开版按逐项来源和隐私边界整理；具体能力与原私有版本的差异见各包 README。
+11 个面向内容创作、AI 视频、电商运营、产品交付和决策支持的可复用工作流。每个目录包含 `SKILL.md` 指令、必要模板及使用说明，供兼容宿主读取。公开版按逐项来源和隐私边界整理；具体能力与原私有版本的差异见各包 README。
+
+## 从一个具体任务开始
+
+先选一项工作流，完整保留该目录，让能读取 Markdown 的助手先读其中的 `SKILL.md`，再提供自己的授权输入。宿主安装与调用方式不同；本仓库不提供模型或一键安装器。
+
+| 想交付什么 | 可先查看的合成输入或样稿 |
+| --- | --- |
+| 有事实依据的产品介绍 | [品牌文案：虚构三格收纳盒](skills/brand-copywriting/examples/synthetic-product.md) |
+| 拍摄前的镜头计划 | [镜头简报：4 秒纸盒打开](skills/jimeng-shot-director/examples/brief.json) |
+| 指标与证据分层的复盘 | [广告周报：合成金额与 ROI 复算](skills/tmall-wanxiang-weekly-review/examples/demo.json) |
+| 能验收的 AI 交付方案 | [只读库存问答：评测与权限边界](skills/ai-product-field-delivery/examples/synthetic-request.md) |
+
+这些是仓库已有的独立合成文本或数据，不是客户案例、运行截图或效果成绩。操作指令、模板和部分示例仍以中文为主；三语 README 不代表已完成工作流日文化或验证日文生成质量。
+
+## 选择工作流
 
 | Skill | 能力与公开范围 |
 | --- | --- |
-| [中文写作轻改](skills/wang-xiaobo-writing/README.md) | 保留事实和个人口气；精简版不含书籍章节映射、文风机制归纳或个人资料 |
+| [中文写作轻改](skills/wang-xiaobo-writing/README.md) · [日本語](docs/ja/wang-xiaobo-writing/README.md) | 保留事实和个人口气；精简版不含书籍章节映射、文风机制归纳或个人资料 |
 | [即梦视频导演](skills/jimeng-video-director/README.md) | 镜头计划、参考分工、连续性和回片检查；保留 MIT 上游归属 |
 | [天猫万相台周复盘](skills/tmall-wanxiang-weekly-review/README.md) | 口径、复算、证据分层与行动方案；不含连接器、业务数据或私有报告生成器 |
 | [参考视频结构迁移](skills/benchmark-script-adapter/README.md) | 通用拆解流程和空白输出模板；不含品牌事实库、成片语料或素材 |
@@ -28,9 +43,11 @@
 
 ## 验证边界
 
-本地结构、引用和合成用例已检查。视频导演 13 项、周复盘/结构迁移/设计系统各 4 项测试通过；写作包检查了精确文件清单、14 个引用和 2 个合成样例。未验证模型行为质量、真实平台、真实业务效果或浏览器视觉效果。静态检查不保证所有模型均能正确执行流程。
+源码公开准备阶段记录了本地结构、引用和合成用例检查。视频导演 13 项、周复盘/结构迁移/设计系统各 4 项测试通过；写作包检查了精确文件清单、14 个引用和 2 个合成样例。未验证模型行为质量、真实平台、真实业务效果或浏览器视觉效果。静态检查不保证所有模型均能正确执行流程。
 
 新增六包还接受独立合成任务检查；具体检查范围和未验证事项见各包 README。未承诺完整保留私有版本的方法体系或效果。
+
+本次三语文档整理未重新运行上述功能测试。写作包的静态检查要求固定文件清单、只接受包内链接；因此该包日文介绍放在仓库级 `docs/ja/`，由本索引提供入口，包内只保留中英互链。作者外链由仓库级文档承接，测试源码未改。
 
 所有示例都是独立合成数据。可用 `python3 -B scripts/generate_all_examples.py` 重现公开示例；不会读取业务文件或联网。
 

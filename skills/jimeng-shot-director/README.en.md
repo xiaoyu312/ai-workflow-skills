@@ -1,10 +1,20 @@
+[简体中文](README.md) · [English](README.en.md) · [日本語](README.ja.md)
+
 # Shot Planning and Footage Review
 
-[中文](README.md) · By xiaoyu312: [FateClear](https://fateclear.com), a free birthday charting and interpretation website · [X](https://x.com/liu_xiaoyu27334)
+By xiaoyu312: [FateClear](https://fateclear.com), a free birthday charting and interpretation website · [X](https://x.com/liu_xiaoyu27334)
 
 Turn a video-shot brief into an action plan, reference responsibilities, a usable prompt and a footage review checklist. For video creators, storyboard planners and teams working with generative video.
 
 This is an independent community workflow. The legacy folder name `jimeng-shot-director` preserves invocation compatibility; it does not imply endorsement by a platform or any author named in the historical provenance notice.
+
+## Preview the handoff
+
+The [synthetic brief](examples/brief.json) asks for one four-second shot of an unbranded cardboard box opening. No reference assets or generation authorization are supplied. The intended handoff is a text shot card identifying missing hinge and camera details, not a claim that a video exists.
+
+**Shortest entry:** ask a Markdown-capable assistant to read this folder's [SKILL.md](SKILL.md), then supply an example or your own authorized input. Keep the whole folder; setup details follow below.
+
+This README is available in three languages. Operational instructions, templates and some examples remain primarily Chinese. You may request an output language, but cross-host invocation and Japanese generation quality have not been validated.
 
 ## Use
 

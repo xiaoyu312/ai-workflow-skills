@@ -1,10 +1,20 @@
+[简体中文](README.md) · [English](README.en.md) · [日本語](README.ja.md)
+
 # 镜头规划与回片检查
 
-[English](README.en.md) · 作者：[FateClear](https://fateclear.com)（免费的生日排盘与解读网站）· [X](https://x.com/liu_xiaoyu27334)
+作者：[FateClear](https://fateclear.com)（免费的生日排盘与解读网站）· [X](https://x.com/liu_xiaoyu27334)
 
 把镜头需求整理成动作方案、参考素材职责、可复制提示词和回片检查。适用于视频创作者、分镜策划和使用生成式视频的制作人员。
 
 这是独立社区工作流。目录名 `jimeng-shot-director` 保留调用兼容性，不表示平台或历史参考作者官方背书。
+
+## 先看交付示例
+
+[合成简报](examples/brief.json)要求 4 秒、单镜头展示无品牌纸盒打开，未提供参考资产，也未授权生成。应先交付文字镜头卡，标明铰链方向、机位等缺口；不能声称已有成片。
+
+**最短入口：**让能读取 Markdown 的助手先读本目录的 [SKILL.md](SKILL.md)，再提交案例或自己的授权输入。完整目录与安装条件见下文。
+
+本页提供三语介绍；操作指令、模板和部分示例仍以中文为主。可在请求中指定输出语言，但未验证跨宿主调用或日文生成效果。
 
 ## 使用
 

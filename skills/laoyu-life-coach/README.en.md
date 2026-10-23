@@ -1,10 +1,20 @@
+[简体中文](README.md) · [English](README.en.md) · [日本語](README.ja.md)
+
 # Life Decisions and Action Coach
 
-[中文](README.md) · By xiaoyu312: [FateClear](https://fateclear.com), a free birthday charting and interpretation website · [X](https://x.com/liu_xiaoyu27334)
+By xiaoyu312: [FateClear](https://fateclear.com), a free birthday charting and interpretation website · [X](https://x.com/liu_xiaoyu27334)
 
 Clarify options, facts, preferences and constraints; identify useful missing information; design a bounded experiment; and review the result.
 
 The historical folder name `laoyu-life-coach` is kept for installation compatibility. This public edition is a general workflow, does not impersonate or claim affiliation with the source course author, and does not include course-corpus search, course formulas or proprietary combinations of methods. It does not promise complete parity with the private predecessor.
+
+## Preview the handoff
+
+A [synthetic scenario](examples/scenarios.json) compares an offline timer with a reading list under a three-hour weekly limit and zero budget. The next step is a bounded experiment and review conditions, without inventing revenue goals or success probabilities.
+
+**Shortest entry:** ask a Markdown-capable assistant to read this folder's [SKILL.md](SKILL.md), then supply an example or your own authorized input. Keep the whole folder; setup details follow below.
+
+This README is available in three languages. Operational instructions, templates and some examples remain primarily Chinese. You may request an output language, but cross-host invocation and Japanese generation quality have not been validated.
 
 ## Use
 

@@ -1,12 +1,21 @@
+[简体中文](README.md) · [English](README.en.md) · [日本語](README.ja.md)
+
 # AI Video Direction Workflow
 
-[中文](README.md)
 
 More from the author: [FateClear](https://fateclear.com) · [Project updates on X](https://x.com/liu_xiaoyu27334)
 
 A workflow for AI video creators covering scripts, shot planning, reference roles, continuity, prompt revisions, and returned-video review. It includes a standard-library Python checker for timelines, asset references and declared state. No private business inputs or media are included.
 
 Status: **Experimental public source edition**.
+
+## Preview the handoff
+
+Start with the [synthetic shot plan](examples/demo.json): reference assets are deliberately marked `planned`. A valid structure does not mean the assets are ready or that acceptable video has been generated. The workflow keeps these states separate while planning shots and reviewing footage.
+
+**Shortest entry:** ask a Markdown-capable assistant to read this folder's [SKILL.md](SKILL.md), then supply an example or your own authorized input. Keep the whole folder; setup details follow below.
+
+This README is available in three languages. Operational instructions, templates and some examples remain primarily Chinese. You may request an output language, but cross-host invocation and Japanese generation quality have not been validated.
 
 ## Install and use
 
@@ -27,7 +36,7 @@ python3 -B -m unittest discover -s tests -p "test_*.py"
 
 Run `python3 -B scripts/check_plan.py examples/demo.json` to inspect the synthetic plan. Its reference files are deliberately marked `planned`: the expected result is structurally valid, assets not ready, and video quality unverified.
 
-These checks cover file structure, references and declared example constraints. They do not verify model quality, current platform capabilities, business impact, or generated media. This package is not a hosted service. The collection root README describes the scope of this repository.
+Checks recorded during public source preparation covered file structure, references and declared example constraints. The bundled tests were not rerun for this documentation update. They do not verify model quality, current platform capabilities, business impact, or generated media. This package is not a hosted service. The collection root README describes the scope of this repository.
 
 ## License
 

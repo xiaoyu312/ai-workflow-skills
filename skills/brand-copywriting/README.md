@@ -1,8 +1,18 @@
+[简体中文](README.md) · [English](README.en.md) · [日本語](README.ja.md)
+
 # 品牌与产品文案 · Brand Copywriting
 
-[English](README.en.md) · 作者的免费生日排盘与解读网站 [FateClear](https://fateclear.com) · [X：项目与更新](https://x.com/liu_xiaoyu27334)
+作者的免费生日排盘与解读网站 [FateClear](https://fateclear.com) · [X：项目与更新](https://x.com/liu_xiaoyu27334)
 
 一个以产品事实为输入、按渠道交付文案的通用 AI Skill。适合产品与运营人员、内容创作者，以及需要统一事实口径的文案协作。
+
+## 先看交付示例
+
+[合成产品](examples/synthetic-product.md)为虚构的三格收纳盒：18 × 12 × 5 cm、ABS 材质、不作食品容器。示例文案“桌面小物，各归一格”保留这些限制，不添加销量、优惠或防尘效果。它是说明用样稿，不是实测转化结果。
+
+**最短入口：**让能读取 Markdown 的助手先读本目录的 [SKILL.md](SKILL.md)，再提交案例或自己的授权输入。完整目录与安装条件见下文。
+
+本页提供三语介绍；操作指令、模板和部分示例仍以中文为主。可在请求中指定输出语言，但未验证跨宿主调用或日文生成效果。
 
 ## 能做什么
 

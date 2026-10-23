@@ -1,10 +1,20 @@
+[简体中文](README.md) · [English](README.en.md) · [日本語](README.ja.md)
+
 # Workplace Collaboration Coach
 
-[中文](README.md) · By xiaoyu312: [FateClear](https://fateclear.com), a free birthday charting and interpretation website · [X](https://x.com/liu_xiaoyu27334)
+By xiaoyu312: [FateClear](https://fateclear.com), a free birthday charting and interpretation website · [X](https://x.com/liu_xiaoyu27334)
 
 Turn competing tasks, coordination problems, unclear responsibilities and performance evidence into practical actions, message drafts and review notes. The package preserves the author's role, authority and evidence checks and adds standalone templates.
 
 The historical folder name `gandepiaoliang-career-coach` is retained for installation compatibility. This public edition does not reproduce a book's chapter system or action-playbook collection, has no official affiliation with its author, and does not claim complete parity with the private edition.
+
+## Preview the handoff
+
+In a [synthetic scenario](examples/scenarios.json), two tasks each need half a day of design time, but only half a day is available in total. The coordinator cannot set priorities. The handoff should clarify deadlines, acceptance and tradeoffs, then draft a request to the decision-maker without inventing an approved extension.
+
+**Shortest entry:** ask a Markdown-capable assistant to read this folder's [SKILL.md](SKILL.md), then supply an example or your own authorized input. Keep the whole folder; setup details follow below.
+
+This README is available in three languages. Operational instructions, templates and some examples remain primarily Chinese. You may request an output language, but cross-host invocation and Japanese generation quality have not been validated.
 
 ## Use
 

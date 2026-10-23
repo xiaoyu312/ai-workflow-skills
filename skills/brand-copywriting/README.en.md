@@ -1,8 +1,18 @@
+[简体中文](README.md) · [English](README.en.md) · [日本語](README.ja.md)
+
 # Brand Copywriting
 
-[中文](README.md) · [FateClear: free birthday charting and interpretation](https://fateclear.com) · [Author on X](https://x.com/liu_xiaoyu27334)
+[FateClear: free birthday charting and interpretation](https://fateclear.com) · [Author on X](https://x.com/liu_xiaoyu27334)
 
 A general AI skill for turning supplied product facts into copy for a defined audience and channel. It supports product and operations teams, content creators, and copy collaborators who need consistent claims.
+
+## Preview the handoff
+
+The [synthetic product](examples/synthetic-product.md) is a fictional three-compartment organizer: 18 × 12 × 5 cm, ABS, not a food container. Its illustrative Chinese copy keeps these limits without inventing sales, promotions or dust-proof claims. It is an authored example, not a measured conversion result.
+
+**Shortest entry:** ask a Markdown-capable assistant to read this folder's [SKILL.md](SKILL.md), then supply an example or your own authorized input. Keep the whole folder; setup details follow below.
+
+This README is available in three languages. Operational instructions, templates and some examples remain primarily Chinese. You may request an output language, but cross-host invocation and Japanese generation quality have not been validated.
 
 ## Capabilities
 

@@ -1,10 +1,20 @@
+[简体中文](README.md) · [English](README.en.md) · [日本語](README.ja.md)
+
 # AI Product Field Delivery
 
-[中文](README.md) · [FateClear — free birthday charting and interpretation](https://fateclear.com) · [Follow project updates on X](https://x.com/liu_xiaoyu27334)
+[FateClear — free birthday charting and interpretation](https://fateclear.com) · [Follow project updates on X](https://x.com/liu_xiaoyu27334)
 
 Turn an AI tool, retrieval, agent, or automation request into a delivery document people can review and verify. This public edition offers four entry points: a delivery brief, an evaluation plan, a release plan, and an operations review.
 
 It is intended for developers, product managers, and delivery owners who need to define scope, verification, and human handoff. A small personal utility can use only the relevant template.
+
+## Preview the handoff
+
+The [synthetic exercise](examples/synthetic-request.md) concerns an inventory assistant that can only read CSV files and has no real query logs. The deliverable is an evaluation plan and evidence gaps, not “50% time saved.” Passing synthetic questions does not authorize inventory writes or deployment.
+
+**Shortest entry:** ask a Markdown-capable assistant to read this folder's [SKILL.md](SKILL.md), then supply an example or your own authorized input. Keep the whole folder; setup details follow below.
+
+This README is available in three languages. Operational instructions, templates and some examples remain primarily Chinese. You may request an output language, but cross-host invocation and Japanese generation quality have not been validated.
 
 ## Use
 

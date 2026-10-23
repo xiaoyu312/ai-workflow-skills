@@ -1,12 +1,21 @@
+[简体中文](README.md) · [English](README.en.md) · [日本語](README.ja.md)
+
 # Operations Dashboard Design
 
-[中文](README.md)
 
 More from the author: [FateClear](https://fateclear.com) · [Project updates on X](https://x.com/liu_xiaoyu27334)
 
 A reusable design workflow and CSS token set for Chinese-language operations dashboards, with semantic colors, typography, layout, data-state and accessibility conventions. No private business inputs or media are included.
 
 Status: **Experimental public source edition**.
+
+## Preview the handoff
+
+Inspect the [standalone HTML example](examples/index.html) and [synthetic data](examples/demo.json) to understand metric, table and state styling with system fonts. It has no business-data connection. This documentation update did not run a browser and does not establish responsive or accessibility acceptance.
+
+**Shortest entry:** ask a Markdown-capable assistant to read this folder's [SKILL.md](SKILL.md), then supply an example or your own authorized input. Keep the whole folder; setup details follow below.
+
+This README is available in three languages. Operational instructions, templates and some examples remain primarily Chinese. You may request an output language, but cross-host invocation and Japanese generation quality have not been validated.
 
 ## Install and use
 
@@ -18,7 +27,7 @@ No API keys or environment variables are required, so no unused `.env.example` i
 
 ## Delivered scope
 
-The original wrapper that loaded a private business dashboard is excluded. The standalone examples/index.html uses only synthetic rows and system fonts. No dashboard data connector or OpenDesign viewer is bundled. CSS-reference tests passed; browser rendering, responsive appearance and assistive-technology behavior were not tested.
+The original wrapper that loaded a private business dashboard is excluded. The standalone examples/index.html uses only synthetic rows and system fonts. No dashboard data connector or OpenDesign viewer is bundled. CSS-reference tests passed during public source preparation; browser rendering, responsive appearance and assistive-technology behavior were not tested.
 
 ## Synthetic demo and checks
 
@@ -29,7 +38,7 @@ python3 -B scripts/generate_demo.py
 python3 -B -m unittest discover -s tests -p "test_*.py"
 ```
 
-These checks cover file structure, references and declared example constraints. They do not verify model quality, current platform capabilities, business impact, or generated media. This package is not a hosted service. The collection root README describes the scope of this repository.
+Checks recorded during public source preparation covered file structure, references and declared example constraints. The bundled tests were not rerun for this documentation update. They do not verify model quality, current platform capabilities, business impact, or generated media. This package is not a hosted service. The collection root README describes the scope of this repository.
 
 ## License
 
